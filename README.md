@@ -33,6 +33,14 @@ It is recommended to use `uv` for creating and managing the virtual environment.
    uv pip install -r requirements.txt
    ```
 
+## Configuration
+
+Create a `.env` file in the root of the project and add your Gemini API key:
+
+```
+API_KEY="your_api_key_here"
+```
+
 ## Running the script
 
 ```bash
